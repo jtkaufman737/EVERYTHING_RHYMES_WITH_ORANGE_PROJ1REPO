@@ -1,6 +1,6 @@
-The memory game! A classic. Hard to imagine such a simple idea 
+The memory game! A classic. Hard to imagine such a simple idea requiring three different code languages to reproduce! 
 
-Code Example
+### Coming soon! Code example
 
 ### Coming soon! 
 
@@ -10,9 +10,9 @@ I am not a person who seamlessly picks up each language I've gained exposure to;
 a particular effort and in recurring course assignments related to the memory game I had difficulty doing what I wanted to with js. This is my
 stubborn as a mule attempt to once and for all conquer the memory game! 
 
-Installation ### Coming soon! 
+### Coming soon! Installation
 
-API Reference ### Coming soon! 
+ ### Coming soon! API reference
 
-Tests ### Coming soon! 
+### Coming soon! Tests 
 
