@@ -1,0 +1,11 @@
+div {
+	background-color:blue;
+	border-style:double;
+	font-family:"Papyrus",fantasy;
+}
+
+body {
+  	background-color:grey;
+  	border-radius:5px;
+  	border-style:single;
+  	border-color:pink;
