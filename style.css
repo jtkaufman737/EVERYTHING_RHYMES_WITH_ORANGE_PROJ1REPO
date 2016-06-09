@@ -16,11 +16,11 @@ nav {
 	float:bottom;*/
 aside {
 	background-color:black;
-	color:pink;
+	color:#ff6666;
 	font-family:"Palatino Linotype",serif;
 	float:right;
 	display:inline;
-	margin:2%;
+	margin:auto;
 	padding:1%;
 	max-height:45%;
 	min-height:35%;
@@ -36,13 +36,10 @@ aside {
 	max-width:50%;*/
 }
 
-.cards {
-	background-color:orange;
-}
-
 .carDiv {
 	background-color:yellow
 	display:inline;
+	margin:auto;
 }
 
 div {
@@ -51,11 +48,11 @@ div {
 	border-radius:15px;
 	font-family:"Impact",san-serif;
 	height:20%;
-	width:49%;
+	width:30%;
 	float:left;
 	position:relative;
-	padding:auto;
-	margin:auto;
+	padding:3%;
+	margin:3%;
 	text-align:center;
 	color:ccccff;
 	display:flex;
@@ -75,7 +72,7 @@ body {
 	max-height:90%;
 	min-width:50%;
 	background-color:#660066;
-	margin:2%;
+	margin:2%
 	padding:2%;
 	float:left;
 	

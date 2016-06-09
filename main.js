@@ -40,10 +40,10 @@ function makePlay(tile){
 	getElementById(.tiles)
 
 	//*something to display inner html
-    tileDiv.onclick('attribute','clicked')
+    carDiv.onclick('attribute','clicked')
     
 	
-	console.log(tile);
+	console.log(cards);
 	var function = twoClicked () {
 		for var twoClicked (i<3; i++) //starts a counter
 			//*how do I reference the number of elements with an attribute
@@ -80,7 +80,7 @@ function checkForMatch() {
 }
 
 function checkForWin() {
-  	getElementById('tiles')
+  	getElementById('cards')
   	for //* tiles class =found === true, tiles class === "won" {
   	
   	}
