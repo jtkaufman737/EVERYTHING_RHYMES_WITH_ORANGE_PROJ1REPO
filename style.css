@@ -18,7 +18,7 @@ aside {
 	background-color:black;
 	color:#ff6666;
 	font-family:"Palatino Linotype",serif;
-	float:right;
+	float:left;
 	display:inline;
 	margin:auto;
 	padding:1%;
@@ -38,7 +38,7 @@ aside {
 
 .carDiv {
 	background-color:yellow
-	display:inline;
+	min-height:500px;
 	margin:auto;
 }
 
