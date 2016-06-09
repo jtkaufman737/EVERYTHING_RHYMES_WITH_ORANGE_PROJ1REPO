@@ -18,7 +18,11 @@ aside {
 	background-color:black;
 	color:#ff6666;
 	font-family:"Palatino Linotype",serif;
+<<<<<<< HEAD
 	float:left;
+=======
+	float:right;
+>>>>>>> dd4ccbc33ec2224fbb1464245b478e0b315e06a5
 	display:inline;
 	margin:auto;
 	padding:1%;
@@ -38,7 +42,11 @@ aside {
 
 .carDiv {
 	background-color:yellow
+<<<<<<< HEAD
 	min-height:500px;
+=======
+	display:inline;
+>>>>>>> dd4ccbc33ec2224fbb1464245b478e0b315e06a5
 	margin:auto;
 }
 
