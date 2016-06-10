@@ -34,21 +34,25 @@ function start(){
 	addCardsToBoard(cards);
 }
 
-function addCardsToBoard(cards){
+function addCardsToBoard(cards) {
 	console.log('adding cards to board');
 	var board = document.getElementById('board');
 	for (var i = 0; i < cards.length; i++) {
 		var cardToAdd = document.createElement('div');
 		cardToAdd.innerHTML = cards[i];
 		board.appendChild(cardToAdd);
-		// console.log($('div'))
-		$('div').addClass('smaller')
-		// /*getElementById.setAttribute('div',class?)
-		// Need to combine getting the divs WITHIN the addCardsToBoard function and give them a separate class
-		// so that I can resize their scale to fit inside my board...But I'm not sure how to combine getting the 
-		// elements within scope and setting the attribute. (I know I know, google it, but whenever I try googling 
-		// any combination of click events/set attributes or anything similar with innerHTML= (just examples)
-		// it is incredibly unhelpful, probably because of how specific my question is)
-	}
+	};
 }
+
+function toClickOrNotToClick(cards){
+	cards.innerHTML = cards.dataset.value;
+	cards.className += " clicked";
+
+	var selected = document.getElementsByClassName('clicked');
+
+	if (selected.length === 2) {
+		checkForMatch();
+}  
+
+
 	

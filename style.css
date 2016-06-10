@@ -68,14 +68,12 @@ div {
 	padding:10px;
 	margin:10px;
 	color:ccccff;
-	display:flex;
-	justify-content:flex-baseline;
+	display:inline;
 
 }
 
 body {
-  	background-image:url("http://imgur.com/KyUklZp");
-  	
+  	background-image:url("http://imgur.com/9oqzSPa");
 }
 
 #board{
@@ -92,6 +90,10 @@ body {
 }
 
 .smaller {
-	width: 100px;
+	height:15%;
+	width:15%;
+	color:thistle;
+	overflow:hidden;
+	display:inline;
 
 }
