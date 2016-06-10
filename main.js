@@ -44,15 +44,11 @@ function addCardsToBoard(cards) {
 	};
 }
 
-function toClickOrNotToClick(cards){
-	cards.innerHTML = cards.dataset.value;
-	cards.className += " clicked";
 
-	var selected = document.getElementsByClassName('clicked');
 
-	if (selected.length === 2) {
-		checkForMatch();
-}  
+
+
+
 
 
 	
