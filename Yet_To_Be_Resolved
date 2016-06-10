@@ -1,0 +1,136 @@
+
+	/*Here, I want to try to use a onetime event to set the display of innerHTML to be off
+	This is the example I found:
+
+	// create a one-time event
+function onetime(node, type, callback) {
+
+	// create event
+	node.addEventListener(type, function(e) {
+		// remove event
+		e.target.removeEventListener(e.type, arguments.callee);
+		// call handler
+		return callback(e);
+	}); */
+
+/*function oneAndDone () {
+	var oneAndDone = onload.cardToAdd/*want to set inner HTML
+	/*I've also come across 'content' mechanisms in js but can't figure out by my research whether
+	since I haven't set content I could use this to get rid of html being displayed without having 
+	previously set any content equal to something. Conversely, I don't know if setting innerHTML to '' 
+	here would erase the back of the cards .
+
+/*Can I do it using the onClick for start button, since it would run through all the rest of 
+the cards and have already executed the creation of cards & values...?
+}
+
+}
+
+	};
+}
+
+// function setUpCards() {
+// 	console.log('make'); 
+
+// for (var index=0; index<10; index++) {
+// 		var cardCreateImage = document.createElement('carDiv');
+// 		cards.setAttribute('class',column);
+
+// for (var index=0; index<cards.length; index++) {
+// 		var cards = document.createElement('carDiv');
+// 		cards.setAttribute('class','column');
+// 		cards.setAttribute('data-value',cards[index]);
+// 		cards.onclick = function() {
+// 			makePlay(this);
+// 			};
+// 		}
+// 	}
+
+
+// var checkForMatch=function() {
+
+// 	// write all your code for this function inside setTimeout below:
+
+//   // setTimeout function() {
+//   // }
+  
+//   //*This syntax looks weird--did I somehow accientally do that?
+// 		//* trying to get the data value out of 2 clicked elements. For 
+// 		//* while they are equal, else if not...
+		
+//   if {
+// 			getElementByID('clicked');
+// 			(clicked(data-value) == clicked(data-value)) === true;
+// 			clicked.setAttribute('class', 'found');
+// 			remove.attribute('class','clicked')
+// 		}
+// 	else if {
+// 			getElementByID('clicked');
+// 			(clicked(data-value) !== clicked(data-value)) == true;
+// 			remove.attribute('class', 'clicked');
+// 			clicked.innerHTML=('')
+// 			//* Note to self need to look up syntax on line 81
+// 			//*Trying to say in this section if the data values are 
+// 			//*Same add a class of matched, but I'm not sure if I should
+// 			//* leave the set class on line 82 to set it to nothing, or 
+// 			//* just have a unspecified else so it won't do anything if
+// 			//*there is no match
+// 		}
+		
+// }
+
+
+// function makePlay(tile){
+// 	getElementById(.tiles)
+
+// 	//*something to display inner html
+//     carDiv.onclick('attribute','clicked')
+    
+	
+// 	console.log(cards);
+// 	var function = twoClicked () {
+// 		for var twoClicked (i<3; i++) //starts a counter
+// 			//*how do I reference the number of elements with an attribute
+// 			//*to tell if the attribute "clicked" exists twice?
+// 	}
+// }
+
+// function checkForMatch() {
+
+// 	// write all your code for this function inside setTimeout below:
+
+// 	setTimeout function() //*This syntax looks weird--did I somehow accientally do that?
+// 		//* trying to get the data value out of 2 clicked elements. For 
+// 		//* while they are equal, else if not...
+// 		while {
+// 			getElementByID('clicked');
+// 			(clicked(data-value) == clicked(data-value)) == true;
+// 			clicked.setAttribute('class', 'found');
+// 			remove.attribute('class','clicked')
+// 		}
+// 		else if {
+// 			getElementByID('clicked');
+// 			(clicked(data-value) !== clicked(data-value)) == true;
+// 			remove.attribute('class', 'clicked');
+// 			clicked.innerHTML=('')
+// 			//* Note to self need to look up syntax on line 81
+// 			//*Trying to say in this section if the data values are 
+// 			//*Same add a class of matched, but I'm not sure if I should
+// 			//* leave the set class on line 82 to set it to nothing, or 
+// 			//* just have a unspecified else so it won't do anything if
+// 			//*there is no match
+// 		}
+		
+// 	}, 1500);
+// }
+
+// function checkForWin() {
+//   	getElementById('cards')
+//   	for //* tiles class =found === true, tiles class === "won" {
+  	
+//   	}
+//   	else {
+
+//   	}
+//   }
+

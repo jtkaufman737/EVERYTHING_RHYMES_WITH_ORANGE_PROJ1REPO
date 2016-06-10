@@ -1,18 +1,27 @@
-<<<<<<< HEAD
 
-=======
->>>>>>> dd4ccbc33ec2224fbb1464245b478e0b315e06a5
 window.onload = function() {	
 
 	var startButton = document.querySelector('button');
 	startButton.onclick = function() {
 		start();
-		console.log(start);
+		
 	};
 }; 
 
+
+// var number = function main() {
+// 	getReadyToRumble();
+// 	scoreCounter();
+
+// 	function start() {
+// 		var ask
+// 		var name1
+// 		var name2
+
+
 var cards = ['A', 'A','B', 'B', 'C', 'C', 'D', 'D', 'E', 'E'];
 	console.log(cards);
+	console.log (shuffle(cards));
 
 function shuffle(o) { 
 	for(var j, x, i = o.length; i; j = Math.floor(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
@@ -22,137 +31,24 @@ function shuffle(o) {
 function start(){
 	console.log('start button clicked!');
 	shuffle(cards);
-	console.log(cards);
-	setUpCards();
-	console.log(setUpCards);
+	addCardsToBoard(cards);
 }
 
-function setUpCards() {
-	console.log('make'); 
-
-<<<<<<< HEAD
-for (var index=0; index<10; index++) {
-		var cardCreateImage = document.getElementByClass('carDiv');
-		cards.setAttribute('class',column);
-=======
-for (var index=0; index<cards.length; index++) {
-		var cards = document.createElement('carDiv');
-		cards.setAttribute('class','column');
->>>>>>> dd4ccbc33ec2224fbb1464245b478e0b315e06a5
-		cards.setAttribute('data-value',cards[index]);
-		cards.onclick = function() {
-			makePlay(this);
-			};
-		}
+function addCardsToBoard(cards){
+	console.log('adding cards to board');
+	var board = document.getElementById('board');
+	for (var i = 0; i < cards.length; i++) {
+		var cardToAdd = document.createElement('div');
+		cardToAdd.innerHTML = cards[i];
+		board.appendChild(cardToAdd);
+		// console.log($('div'))
+		$('div').addClass('smaller')
+		// /*getElementById.setAttribute('div',class?)
+		// Need to combine getting the divs WITHIN the addCardsToBoard function and give them a separate class
+		// so that I can resize their scale to fit inside my board...But I'm not sure how to combine getting the 
+		// elements within scope and setting the attribute. (I know I know, google it, but whenever I try googling 
+		// any combination of click events/set attributes or anything similar with innerHTML= (just examples)
+		// it is incredibly unhelpful, probably because of how specific my question is)
 	}
-<<<<<<< HEAD
-
-// function makePlay(cards){
-// 	function showLetter () {
-// 	getElementById(cards);
-
-// 	//*something to display inner html
-//     carDiv.onclick('attribute',clicked);
-    
-	
-	
-	// var twoClicked= twoClicked (); {
-	// 	for (i<3; i++;) 
-	// }
-
-// var checkForMatch=function() {
-
-// 	// write all your code for this function inside setTimeout below:
-
-//   // setTimeout function() {
-//   // }
-  
-//   //*This syntax looks weird--did I somehow accientally do that?
-// 		//* trying to get the data value out of 2 clicked elements. For 
-// 		//* while they are equal, else if not...
-		
-// //   if {
-// // 			getElementByID('clicked');
-// // 			(clicked(data-value) == clicked(data-value)) === true;
-// // 			clicked.setAttribute('class', 'found');
-// // 			remove.attribute('class','clicked')
-// // 		}
-// // 	else if {
-// // 			getElementByID('clicked');
-// // 			(clicked(data-value) !== clicked(data-value)) == true;
-// // 			remove.attribute('class', 'clicked');
-// // 			clicked.innerHTML=('')
-// // 			//* Note to self need to look up syntax on line 81
-// // 			//*Trying to say in this section if the data values are 
-// // 			//*Same add a class of matched, but I'm not sure if I should
-// // 			//* leave the set class on line 82 to set it to nothing, or 
-// // 			//* just have a unspecified else so it won't do anything if
-// // 			//*there is no match
-// // 		}
-		
-// // 	}, 1500);
-// // }
-
-// // function checkForWin() {
-// //   	getElementById('tiles')
-// //   	for //* tiles class =found === true, tiles class === "won" {
-  	
-// //   	}
-// //   	else {
-
-// //   	}
-// //       
-=======
-function makePlay(tile){
-	function showLetter () {
-	getElementById(.tiles)
-
-	//*something to display inner html
-    carDiv.onclick('attribute','clicked')
-    
-	
-	console.log(cards);
-	var function = twoClicked () {
-		for var twoClicked (i<3; i++) //starts a counter
-			//*how do I reference the number of elements with an attribute
-			//*to tell if the attribute "clicked" exists twice?
-	}
-
-function checkForMatch() {
-
-	// write all your code for this function inside setTimeout below:
-
-	setTimeout function() //*This syntax looks weird--did I somehow accientally do that?
-		//* trying to get the data value out of 2 clicked elements. For 
-		//* while they are equal, else if not...
-		while {
-			getElementByID('clicked');
-			(clicked(data-value) == clicked(data-value)) == true;
-			clicked.setAttribute('class', 'found');
-			remove.attribute('class','clicked')
-		}
-		else if {
-			getElementByID('clicked');
-			(clicked(data-value) !== clicked(data-value)) == true;
-			remove.attribute('class', 'clicked');
-			clicked.innerHTML=('')
-			//* Note to self need to look up syntax on line 81
-			//*Trying to say in this section if the data values are 
-			//*Same add a class of matched, but I'm not sure if I should
-			//* leave the set class on line 82 to set it to nothing, or 
-			//* just have a unspecified else so it won't do anything if
-			//*there is no match
-		}
-		
-	}, 1500);
 }
-
-function checkForWin() {
-  	getElementById('cards')
-  	for //* tiles class =found === true, tiles class === "won" {
-  	
-  	}
-  	else {
-
-  	}
->>>>>>> dd4ccbc33ec2224fbb1464245b478e0b315e06a5
+	
