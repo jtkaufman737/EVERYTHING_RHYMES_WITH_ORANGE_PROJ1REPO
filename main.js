@@ -1,18 +1,27 @@
-window.onload = function() {	
+// window.onload = function() {	
 
-	var startButton = document.querySelector('button');
-	startButton.onclick = function() {
-		start();
-		console.log(start);
-	};
-}; 
+// 	var startButton = document.querySelector('button');
+// 	startButton.onclick = function() {
+// 		start();
+// 		console.log(start);
+// 	};
+// }; 
 
-var cards = ['A', 'A','B', 'B', 'C', 'C', 'D', 'D', 'E', 'E'];
-	console.log(cards);
+// var cards = ['A', 'A','B', 'B', 'C', 'C', 'D', 'D', 'E', 'E'];
+// 	console.log(cards);
 
-function shuffle(o) { 
-	for(var j, x, i = o.length; i; j = Math.floor(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
-		return o;
+// function shuffle(o) { 
+// 	for(var j, x, i = o.length; i; j = Math.floor(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
+// 		return o;
+// }
+
+/*AT THIS POINT ^ ALL THE ABOVE CODE HAS BEEN RECONCILED FROM VERSION CONTROL ISSUES */
+
+
+function start() {
+	console.log('start button clicked!');
+	shuffle(cards);
+	addCardsToBoard(cards())
 }
 
 function start(){
