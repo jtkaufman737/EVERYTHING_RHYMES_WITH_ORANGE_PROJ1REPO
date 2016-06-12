@@ -26,6 +26,7 @@ function addCardsToBoard(cards)
     console.log('adding cards to board');
     var board = document.getElementById('board');
     for (var i = 0; i <cards.length; i++) {
+
         var cardToAdd = document.createElement('div');  
         cardToAdd.setAttribute( 'data-value', cards[i]); 
         cardToAdd.setAttribute( 'class', 'smaller'); 
@@ -39,11 +40,15 @@ function addCardsToBoard(cards)
 
   var checkYoSelf = function() {
       document.getElementsByClassName('clicked');
-    if ((clicked[0].innerHTML===clicked[1].innerHTML) == true){
-        console.log("Found a match!")
-    }
-    else if ((clicked[0].innerHTML!==clicked[1].innerHTML) !==true )/*say sorry, no match )*/
-    { console.log ('testing')}
+    if (clicked[0].innerHTML===clicked[1].innerHTML) === true
+        getElementsByClassName('clicked')
+        this.setAttribute('class','matched')
+        // In CSS will turn that into something with no display so you'll only see the remaining code
+        var element = document.getElementById("element-id");
+element.parentNode.removeChild(element);
+    else if ((clicked[0].innerHTML!==clicked[1].innerHTML) !==true )/ 
+        console.log('Sorry,no match');
     else if (clicked[1].innerHTML='')  /*Do nothing, they go again*/
-          { console.log('testing again')};
+        console.log('picking again');
 }
+
