@@ -28,6 +28,11 @@ aside {
 	min-width:35%;
 }
 
+#button {
+	color:grey;
+	border-radius:1px;
+}
+
 .column {
 	background-color:white;
 	min-height:5%;

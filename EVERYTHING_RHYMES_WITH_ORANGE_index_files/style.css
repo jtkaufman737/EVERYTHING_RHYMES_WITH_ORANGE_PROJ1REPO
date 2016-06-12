@@ -1,0 +1,66 @@
+/*
+
+head {
+font-color:#;
+font-family:#;
+}
+
+p   {
+	font-color:#;
+	font-family:#;
+}
+
+nav {
+	font-color:#;
+	font-family:#;
+	float:bottom;*/
+}
+
+.column {
+	background-color:white;
+	min-height:5%;
+	min-width:5%;
+	max-height:50%;
+	max-width:50%;*/
+}
+
+.cards {
+	background-color:orange;
+}
+
+.carDiv {
+	background-color:yellow
+	display:inline;
+}
+
+div {
+	background-color:blue;
+	border-style:double;
+	font-family:"Papyrus",fantasy;
+	height:30%;
+	width:30%;
+	display:inline-block;
+	position:relative;
+	padding:auto;
+	margin:auto;
+	text-align:center;
+
+}
+
+body {
+  	background-color:grey;
+  	border-color:pink;
+}
+
+#board{
+	max-width:500px;
+	min-height:100px;
+	max-height:200px;
+	min-width:250px;
+	background-color:white;
+	margin:5%;
+	padding:2%;
+	float:bottom;
+	
+}
+

@@ -15,7 +15,6 @@ nav {
 	font-family:#;
 	float:bottom;*/
 aside {
-	background-color:black;
 	color:#ff6666;
 	font-family:"Palatino Linotype",serif;
 	float:right;
@@ -57,13 +56,11 @@ div {
 	color:ccccff;
 	display:flex;
 	justify-content:space-between;
-
-
-
 }
 
-body {
-  	background:url(http://imgur.com/KyUklZp);
+#button {
+	color:grey;
+	border-radius:1px;
 }
 
 #board{
