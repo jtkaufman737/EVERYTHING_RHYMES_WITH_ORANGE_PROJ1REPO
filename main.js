@@ -44,7 +44,23 @@ function addCardsToBoard(cards) {
 	};
 }
 
+<<<<<<< HEAD
 
+=======
+var toClickOrNotToClick=function(); {
+	cards.innerHTML = cards.dataset.value;
+	cards.className += "clicked";
+
+	var selected = document.getElementsByClassName('clicked');
+
+	if (selected.length === 2) {
+		checkForMatch();
+} 
+
+var CheckForMatch = function()
+	document.getElementByClassName('clicked')
+	/* How do I reference for (1stThingClicked === 2ndThingClicked) == true; console.log 'match'
+>>>>>>> e7e8a20c16b96081208722a621ef3ecd64d6cca8
 
 
 

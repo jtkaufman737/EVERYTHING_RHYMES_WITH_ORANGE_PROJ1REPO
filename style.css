@@ -39,6 +39,11 @@ aside {
 	max-width:auto;
 }
 
+#button {
+	color:grey;
+	border-radius:1px;
+}
+
 .column {
 	background-color:white;
 	min-height:5%;
