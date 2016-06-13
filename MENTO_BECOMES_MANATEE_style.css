@@ -1,22 +1,43 @@
-aside {
+head {
+font-color:#;
+font-family:#;
+}
+
+p   {
+    font-color:#;
+    font-family:#;
+}
+
+nav {
+    font-color:#;
+    font-family:#;
+    float:bottom;*/
+
+section {
     background-color:black;
     color:#ff6666;
     font-family:"Palatino Linotype",serif;
-    float:right;
-    display:inline;
+    float:left;
+    margin:auto;
     padding:1%;
     max-height:45%;
     min-height:35%;
     max-width:45%;
     min-width:35%;
 }
-​
+
 .column {
     background-color:white;
     min-height:5%;
     min-width:5%;
     max-height:50%;
-    max-width:50%;
+    max-width:50%;*/
+}
+
+.carDiv {
+    background-color:yellow
+    display:inline;
+    margin:auto;
 }
 
 div {
@@ -28,13 +49,14 @@ div {
     width:30%;
     float:left;
     position:relative;
+    padding:3%;
     margin:3%;
     text-align:center;
     color:ccccff;
     display:flex;
     justify-content:space-between;
 }
-​
+
 #button {
     color:gray;
     border-radius:1px;
@@ -43,8 +65,14 @@ div {
 body {
       background:url(http://imgur.com/KyUklZp);
 }
-​
+
 #board{
     max-width:90%;
     min-height:350px;
     max-height:90%;
+    min-width:50%;
+    background-color:#660066;
+    margin:2%
+    padding:2%;
+    float:left;    
+}
